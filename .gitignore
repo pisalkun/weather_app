@@ -1,0 +1,25 @@
+# Ignore common development files
+.DS_Store
+Thumbs.db
+
+# Ignore editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+tmp/
+temp/
+
+# Node modules if added later
+node_modules/
+
+# Environment variables (if used in the future)
+.env
+.env.local
